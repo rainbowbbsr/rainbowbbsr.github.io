@@ -662,7 +662,7 @@ html,body{
 }
 
 .service-img img{
-	height: 65px;
+	height: 100px;
 	margin-top: 30px;
 }
 /*.service-txt*/
@@ -1238,6 +1238,27 @@ a:active.learn-btn{
 }
 
 #certification-thumbs a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+
+/*-------------------------------------
+		Clients
+--------------------------------------*/
+#client-thumbs {
+  width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch
+}
+
+#client-thumbs a {
     vertical-align: top;
     display: inline-block;
     *display: inline;
